@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Expense Tracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h1>Simple Expense Tracker</h1>
+        <div class="account-div">
+            <div id="total-depo" class="account-box">
+                <h4>Total Deposit</h4>
+                <h2 class="amount">$<span id="total-deposit">00</span></h2>
+            </div>
+            <div id="total-with" class="account-box">
+                <h4>Total Withdraw</h4>
+                <h2 class="amount">$<span id="total-withdraw">00</span></h2>
+            </div>
+            <div id="total-bal" class="account-box">
+                <h4>Total Balance</h4>
+                <h2 class="amount">$<span id="total-balance">00</span></h2>
+            </div>
+        </div>
+        <input type="text" id="input-field">
+        <div class="btn">
+            <button id="btn-depo" class="btn-depo-class">
+                <p>Deposit</p>
+            </button>
+            <button id="btn-with" class="btn-with-class">
+                <p>Withdraw</p>
+            </button>
+        </div>
+    </main>
+
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
+</body>
+</html>
