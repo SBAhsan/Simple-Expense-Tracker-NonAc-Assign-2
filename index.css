@@ -2,49 +2,50 @@
     margin: 0;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
-main{
+main {
     text-align: center;
     background-color: blueviolet;
     border-radius: 10px;
     padding: 30px;
 }
 
-h1{
+h1 {
     padding-bottom: 30px;
 }
 
-.account-div{
+.account-div {
     display: flex;
     gap: 40px;
 }
 
-.amount{
+.amount {
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 30px;
 }
 
-.account-box{
+.account-box {
     border: 2px;
     border-radius: 5px;
 }
 
-input{
+input {
     width: 300px;
     height: 30px;
     border: none;
     border-radius: 10px;
     margin-bottom: 10px;
+    padding: 5px 0px 5px 10px;
 }
 
-.btn-depo-class{
+.btn-depo-class {
     padding: 15px;
     width: 150px;
     font-size: 16px;
@@ -53,7 +54,7 @@ input{
     background-color: green;
 }
 
-.btn-with-class{
+.btn-with-class {
     padding: 15px;
     width: 150px;
     font-size: 16px;
