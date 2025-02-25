@@ -10,7 +10,7 @@ document.getElementById('btn-with').addEventListener('click', function(){
     // step-7 : withdraw field clear
     withField.value = '';
 
-    if(isNaN(newWithdrawAmount)){
+    if(isNaN(newWithdrawAmount) || newWithdrawAmount < 0){
         alert('Please provide a valid number.');
         return;
     }
